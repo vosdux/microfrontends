@@ -5,6 +5,12 @@ import { ModuleFederationPlugin } from '@module-federation/enhanced/rspack';
 export default defineConfig({
   server: {
     port: 3000,
+    headers: {
+      'Access-Control-Allow-Origin': '*',
+      'Access-Control-Allow-Headers': '*',
+      'Access-Control-Allow-Methods': 'POST, GET, OPTIONS',
+      'Access-Control-Allow-Credentials': 'true',
+    }
   },
   dev: {
     assetPrefix: 'http://localhost:3000'

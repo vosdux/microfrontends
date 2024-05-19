@@ -21,7 +21,7 @@ const UserPage: React.FC = () => {
   return (
     <>
       <Row>
-        <Button>Create user1</Button>
+        <Button>Create user</Button>
       </Row>
       <Table columns={columns} dataSource={data} />
     </>
