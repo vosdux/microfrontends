@@ -16,5 +16,36 @@
   "start_url": "../",
   "display": "standalone",
   "theme_color": "#001529",
-  "background_color": "#001529"
+  "background_color": "#001529",
+  "shortcuts": [
+    {
+      "name": "app1",
+      "url": "/app1"
+    },
+    {
+      "name": "app2",
+      "url": "/app2"
+    }
+  ],
+  "description": "Установите наше приложение и пользуйтесь им в один клик",
+  "screenshots": [
+    {
+      "src": "./3.jpg",
+      "type": "image/png",
+      "sizes": "1080x1920",
+      "form_factor": "wide"
+    },
+    {
+      "src": "./2.jpg",
+      "type": "image/png",
+      "sizes": "1080x1920",
+      "form_factor": "wide"
+    },
+    {
+      "src": "./1.jpg",
+      "type": "image/png",
+      "sizes": "1080x1920",
+      "form_factor": "wide"
+    }
+  ]
 }
